@@ -1,17 +1,26 @@
-![Logo de Dark Blue](/Docs/images/logoMini.png)
-# **Dark Blue: Mar de Acero**
-### *Batallas de submarinos en un futuro distópico — campaña vs IA y modo online 1v1 en tiempo real*
+<div style="display: flex; align-items: center; gap: 12px;">
+  <img src="./Docs/images/logoMini.png" alt="Logo de Dark Blue" style="width: 96px;">
+  <h1 style="font-size: 40px;
+        background: linear-gradient(90deg, #ffa500, #ffcf70);
+        -webkit-background-clip: text;
+        color: transparent;margin: 0; color: #960;">Dark Blue: Mar de Acero</h1>
+</div>
+
+
+### &nbsp;&nbsp;*¡El destino de la humanidad está en tus manos! -   Una batalla épica bajo el del mar*
 ---
-## 🧭 Descripción del Proyecto
+<h2 style="color: #3bfa; font-size: 22px;">
+Descripción del Proyecto
+</h2>
 
-**Dark Blue: Mar de Acero** es un videojuego web inspirado en el clásico *Hundir la Flota*, reinventado y ambientado en un futuro distópico dominado por una guerra eterna entre humanos y máquinas.
+&nbsp;&nbsp;**Dark Blue: Mar de Acero** es un videojuego web inspirado en el clásico *"Hundir la Flota"*, reinventado y ambientado en un futuro distópico en guerra entre humanos y máquinas.
 
-El jugador puede enfrentarse a:
+&nbsp;&nbsp;El jugador puede enfrentarse a:
 
 - 🤖 **Una IA avanzada en modo campaña**
-- 🌐 **Otros jugadores en tiempo real (1vs1) mediante WebSockets**
+- 🌐 **Otros jugadores en tiempo real (player vs player) online**
 
-El título ofrece:
+&nbsp;&nbsp;El título ofrece:
 
 - Tableros dinámicos
 - Ataques especiales
@@ -20,16 +29,18 @@ El título ofrece:
 - Progresión completa del perfil
 - Tienda online con créditos virtuales
 
-El proyecto está dividido en:
+&nbsp;&nbsp;El proyecto está dividido en:
 
 - **Backend**: Spring Boot 3.5 + WebSockets + MongoDB
 - **Frontend**: Angular 19 + Tailwind + Signals + RxJS
 
 ---
 
-# 🚀 Tecnologías Principales
+<h2 style="color: #3bfa; font-size: 22px;">
+Tecnologías Principales
+</h2>
 
-## 🛠 Backend
+## &nbsp;🛠 Backend
 - **Java 17**
 - **Spring Boot 3.5**
 - Spring Security + JWT
@@ -40,7 +51,7 @@ El proyecto está dividido en:
 - Spring Mail
 - Maven
 
-## 🎨 Frontend
+## &nbsp;🎨 Frontend
 - **Angular 19**
 - Angular Signals
 - RxJS
@@ -50,10 +61,11 @@ El proyecto está dividido en:
 - Audio + animaciones CSS
 
 ---
+<h2 style="color: #3bfa; font-size: 22px;">
+Funcionalidades Principales
+</h2>
 
-# 🎮 Funcionalidades Principales
-
-## 🔐 Autenticación y Seguridad
+## &nbsp;🔐 Autenticación y Seguridad
 - Registro con **doble factor de autenticación (2FA)**
 - Login con JWT
 - Recuperación de contraseña
@@ -62,7 +74,7 @@ El proyecto está dividido en:
 
 ---
 
-## 🧑‍💻 Perfil del Jugador
+## &nbsp;🧑‍💻 Perfil del Jugador
 - Nivel y experiencia
 - Créditos virtuales
 - Estadísticas completas
@@ -71,7 +83,7 @@ El proyecto está dividido en:
 
 ---
 
-## 🤖 Modo Campaña (Player vs IA)
+## &nbsp;🤖 Modo Campaña (Player vs IA)
 - IA inteligente con priorización de objetivos
 - Disparos progresivos
 - Uso de ataques especiales por la IA
@@ -80,7 +92,7 @@ El proyecto está dividido en:
 
 ---
 
-## 🌐 Modo Online 1 vs 1 en Tiempo Real
+## &nbsp;🌐 Modo Online 1 vs 1 en Tiempo Real
 - Sincronización mediante WebSockets (STOMP)
 - Turnos, impactos y fallos en tiempo real
 - Ataques especiales completamente sincronizados
@@ -89,7 +101,7 @@ El proyecto está dividido en:
 
 ---
 
-## 🔫 Sistema de Ataques Especiales
+## &nbsp;🔫 Sistema de Ataques Especiales
 - **x2Shot** → doble disparo
 - **MultiShot** → varios impactos simultáneos
 - **LaserShot** → disparo en línea recta que revela/impacta casillas
@@ -98,21 +110,21 @@ Incluye efectos visuales, animaciones y sonidos exclusivos.
 
 ---
 
-## 💬 Chat Integrado
+## &nbsp;💬 Chat Integrado
 - Mensajería instantánea en partidas online
 - Envío de logs del sistema al usuario
 
 ---
 
-## 💰 Tienda Online
+## &nbsp;💰 Tienda Online
 - Compras con créditos virtuales y moneda real
 - Items: ataques especiales, skins, mejoras
 - Donaciones integradas
 
 ---
 
-## 🗃️ Persistencia Completa en MongoDB
-Colecciones utilizadas:
+## &nbsp;🗃️ Persistencia Completa en MongoDB
+&nbsp;&nbsp;&nbsp; Colecciones utilizadas:
 
 - `users`
 - `games`
@@ -120,10 +132,11 @@ Colecciones utilizadas:
 - `items`
 
 ---
+<h2 style="color: #3bfa; font-size: 22px;">
+Arquitectura del Proyecto
+</h2>
 
-# 🧱 Arquitectura del Proyecto
-
-## 📦 Colecciones MongoDB
+## &nbsp;📦 Colecciones MongoDB
 | Colección | Contenido |
 |----------|-----------|
 | **users** | credenciales, 2FA, recuperación, email |
@@ -133,7 +146,7 @@ Colecciones utilizadas:
 
 ---
 
-## 🧩 Controladores REST principales
+## &nbsp;🧩 Controladores REST principales
 
 | Controlador | Funcionalidad |
 |-------------|---------------|
@@ -145,34 +158,35 @@ Colecciones utilizadas:
 
 ---
 
-## 📡 WebSocket Topics
+## &nbsp;📡 WebSocket Topics
 - `/topic/game/{gameId}`
 
 ---
 ## 🎨 Multimedia, Recursos y Licencias
 
-### El proyecto utiliza:
+### &nbsp;&nbsp;El proyecto utiliza:
 
- 🖼️ Recursos gráficos y sonidos
+ &nbsp;&nbsp;&nbsp;🖼️ Recursos gráficos
 
-1.[x] Imágenes libres de derechos obtenidas de Pixabay
-2.[x] Pistas de audio libres de derechos obtenidas de Pixabay
-3.[x] Edición personalizada realizada por el desarrollador
-4.[x] Generación de materiales mediante IA:
-5.[x] Gemini 
-6.[x] ChatGPT
+- Imágenes libres de derechos obtenidas de Pixabay
+- Edición personalizada realizada por el desarrollador
+- Generación de materiales mediante IA:
+- Gemini 
+- ChatGPT
 
-🔊 Efectos de sonido
+&nbsp;&nbsp;&nbsp;🔊 Recursos de sonido
 
-1.[x] Archivos propios
+- Archivos propios
+- Pistas de audio libres de derechos obtenidas de Pixabay
+- Edición personalizada realizada por el desarrollador
+- Recursos libres de derechos
 
-2.[x] Recursos libres de derechos
-
-Todos los materiales cumplen las licencias correspondientes.
 ---
-# 🖥️ Instalación y Uso
+<h2 style="color: #ffcf70; font-size: 22px;">
+Instalación y Uso
+</h2>
 
-## 📌 Frontend
+## &nbsp;📌 Frontend
 
 ```bash
 git clone https://github.com/tu_usuario/dark-blue.git
@@ -182,19 +196,23 @@ ng serve
 
 ```
 --- 
+
+<h2 style="color: #3bfa; font-size: 22px;">
+Créditos
+</h2>
+
+#### &nbsp;&nbsp;Developed by:
+### &nbsp;&nbsp;&nbsp;Alberto Tabernero Valle
+
+&nbsp;&nbsp;&nbsp;&nbsp;Desarrollador Fullstack (junior) 15/12/2025
+
+### &nbsp;🔗 Contacto
+
+&nbsp;&nbsp;&nbsp;&nbsp;📧 Email: atabernerovalle@gmail.com
+
+&nbsp;&nbsp;&nbsp;&nbsp;💼 LinkedIn: http://www.linkedin.com/in/alberto-tabernero
+
+&nbsp;&nbsp;&nbsp;&nbsp;🐙 GitHub: https://github.com/albeany
+
 ### 💙 ¡Gracias por probar Dark Blue: Mar de Acero!
 ---
-### 👨‍💻 Autor:
-### Alberto Tabernero Valle
-
-Desarrollador Fullstack (junior) 15/12/2025
-
-### 🔗 Contacto
-
-📧 Email: atabernerovalle@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/tu-perfil
-
-🐙 GitHub: https://github.com/albeany
-
---- 
