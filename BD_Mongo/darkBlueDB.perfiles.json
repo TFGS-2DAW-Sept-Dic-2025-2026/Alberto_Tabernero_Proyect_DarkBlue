@@ -1,0 +1,114 @@
+[{
+  "_id": {
+    "$oid": "68ee16601af868c7271191c5"
+  },
+  "username": "atabernerovalle@gmail.com",
+  "nickname": "MataBot",
+  "avatar": "http://localhost:8080/media/images/avatar/atabernerovalle.png?t=1765020700084",
+  "stats": {
+    "fechaRegistro": {
+      "$date": "2025-10-14T09:22:40.780Z"
+    },
+    "stage": 0,
+    "coins": 410180,
+    "wins": 251,
+    "losses": 16,
+    "playTime": {
+      "$numberLong": "69324179"
+    },
+    "rango": "Marinero",
+    "specials": [
+      "x2Shot",
+      "multiShot",
+      "laserShot"
+    ],
+    "specialSlot1": "x2Shot",
+    "specialSlot2": ""
+  },
+  "_class": "personal.darkblueback.entities.Perfil"
+},
+{
+  "_id": {
+    "$oid": "69119a73b7cb1ab56abcfe4c"
+  },
+  "username": "a@a.com",
+  "nickname": "Alberto",
+  "avatar": "http://localhost:8080/media/images/avatar/a.png?t=1765020718776",
+  "stats": {
+    "fechaRegistro": {
+      "$date": "2025-11-10T07:55:31.582Z"
+    },
+    "stage": 0,
+    "coins": 9310,
+    "wins": 9,
+    "losses": 19,
+    "playTime": {
+      "$numberLong": "12363371"
+    },
+    "rango": "Marinero",
+    "specials": [
+      "x2Shot"
+    ],
+    "specialSlot1": "x2Shot",
+    "specialSlot2": ""
+  },
+  "_class": "personal.darkblueback.entities.Perfil"
+},
+{
+  "_id": {
+    "$oid": "693733a21ad464007c3479d9"
+  },
+  "username": "player1@player1.es",
+  "nickname": "player1",
+  "avatar": "images/avatar/default.png?t=1765225378568",
+  "stats": {
+    "fechaRegistro": {
+      "$date": "2025-12-08T20:22:58.568Z"
+    },
+    "stage": 0,
+    "coins": 135000,
+    "wins": 0,
+    "losses": 0,
+    "playTime": {
+      "$numberLong": "0"
+    },
+    "currentStartTime": {
+      "$numberLong": "0"
+    },
+    "rango": "Marinero",
+    "specials": [
+      "x2Shot"
+    ],
+    "specialSlot1": "",
+    "specialSlot2": ""
+  },
+  "_class": "personal.darkblueback.entities.Perfil"
+},
+{
+  "_id": {
+    "$oid": "693734141ad464007c3479db"
+  },
+  "username": "player2@player2.es",
+  "nickname": "player2",
+  "avatar": "http://localhost:8080/media/images/avatar/player2.png?t=1765225583765",
+  "stats": {
+    "fechaRegistro": {
+      "$date": "2025-12-08T20:24:52.153Z"
+    },
+    "stage": 0,
+    "coins": 150000,
+    "wins": 0,
+    "losses": 0,
+    "playTime": {
+      "$numberLong": "0"
+    },
+    "currentStartTime": {
+      "$numberLong": "0"
+    },
+    "rango": "Marinero",
+    "specials": [],
+    "specialSlot1": "",
+    "specialSlot2": ""
+  },
+  "_class": "personal.darkblueback.entities.Perfil"
+}]

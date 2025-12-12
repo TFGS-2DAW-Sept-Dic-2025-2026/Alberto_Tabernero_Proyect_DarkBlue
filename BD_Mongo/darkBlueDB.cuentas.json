@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "68ee16601af868c7271191c4"
+  },
+  "nickname": "MataBot",
+  "username": "atabernerovalle@gmail.com",
+  "password": "$2a$10$snHnQh3o/J/tkVVozFSzOuNUmJQ0YxbJGwVVNrjNAChWUgMS7EUt6",
+  "activate": true,
+  "_class": "personal.darkblueback.entities.Usuario"
+},
+{
+  "_id": {
+    "$oid": "69119a73b7cb1ab56abcfe4b"
+  },
+  "nickname": "Alberto",
+  "username": "a@a.com",
+  "password": "$2a$10$HX1hCun2kDMlffOB78IzHOwhswR6BbVqat5HOgE1t3oImyzKk/ACa",
+  "activate": true,
+  "_class": "personal.darkblueback.entities.Usuario"
+},
+{
+  "_id": {
+    "$oid": "693733a21ad464007c3479d8"
+  },
+  "nickname": "player1",
+  "username": "player1@player1.es",
+  "password": "$2a$10$p344.1/AXcUyIYyW3JwTpOEJ92vn89BpvwuvOwQh/x2qckPwbisAW",
+  "activate": true,
+  "_class": "personal.darkblueback.entities.Usuario"
+},
+{
+  "_id": {
+    "$oid": "693734141ad464007c3479da"
+  },
+  "nickname": "player2",
+  "username": "player2@player2.es",
+  "password": "$2a$10$MLvKI/BZsm2MxWDLDmH6K..d/X0E05U4MdnIyJrR56Z1ZDvuaB9oC",
+  "activate": true,
+  "_class": "personal.darkblueback.entities.Usuario"
+}]

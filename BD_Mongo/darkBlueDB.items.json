@@ -1,0 +1,70 @@
+[{
+  "_id": {
+    "$oid": "6919b4efb64cac9ad5bbb7ae"
+  },
+  "name": "x2Shot",
+  "description": "Cada 3 disparos fallidos se activa un turno doble.",
+  "image": "/images/special/x2Shot.png",
+  "price": 15000,
+  "typeCoin": "coin"
+},
+{
+  "_id": {
+    "$oid": "6919b681b64cac9ad5bbb7af"
+  },
+  "name": "multiShot",
+  "description": "Cada 4 disparos fallidos se activa un disparo múltiple inteligente.",
+  "image": "/images/special/multiShot.png",
+  "price": 50000,
+  "typeCoin": "coin"
+},
+{
+  "_id": {
+    "$oid": "6919b775b64cac9ad5bbb7b0"
+  },
+  "name": "laserShot",
+  "description": "Cada 6 disparos fallidos se activa un disparo laser aleatorio que elimina una fila o columna entera.",
+  "image": "/images/special/laserShot.png",
+  "price": 80000,
+  "typeCoin": "coin"
+},
+{
+  "_id": {
+    "$oid": "6919b90cb64cac9ad5bbb7b1"
+  },
+  "name": "Apoyo al desarrollador",
+  "description": "Con esto ayudas al desarrollador a inspirarse para seguir con el proyecto...",
+  "image": "/images/special/thanks.png",
+  "price": 1,
+  "typeCoin": "euro"
+},
+{
+  "_id": {
+    "$oid": "6919b932b64cac9ad5bbb7b2"
+  },
+  "name": "Apoyo al desarrollador",
+  "description": "Con esto ayudas al desarrollador a inspirarse para seguir con el proyecto más...",
+  "image": "/images/special/thanks2.png",
+  "price": 2,
+  "typeCoin": "euro"
+},
+{
+  "_id": {
+    "$oid": "6919b98bb64cac9ad5bbb7b3"
+  },
+  "name": "Apoyo al desarrollador",
+  "description": "Con esto ayudas al desarrollador a inspirarse para seguir con el proyecto más todavía...",
+  "image": "/images/special/thanks3.png",
+  "price": 5,
+  "typeCoin": "euro"
+},
+{
+  "_id": {
+    "$oid": "6919ba8bb64cac9ad5bbb7b4"
+  },
+  "name": "Apoyo al desarrollador",
+  "description": "Tú eres el soberano para elegir como agradecer al desarrollador con la cantidad que salga de tu corazón...",
+  "image": "/images/special/thanks4.png",
+  "price": 0,
+  "typeCoin": "euro"
+}]
