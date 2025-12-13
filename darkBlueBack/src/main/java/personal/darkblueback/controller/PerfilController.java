@@ -6,13 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import personal.darkblueback.entities.Perfil;
-import personal.darkblueback.entities.Usuario;
-import personal.darkblueback.exception.CustomException;
 import personal.darkblueback.repository.PerfilRepository;
-import personal.darkblueback.repository.UsuarioRepository;
 import personal.darkblueback.services.PerfilService;
-import personal.darkblueback.utils.PasswordUtil;
-
 import java.io.IOException;
 
 @RestController
@@ -22,7 +17,6 @@ public class PerfilController {
 
     private final PerfilService perfilService;
     private final PerfilRepository perfilRepository;
-    private final UsuarioRepository usuarioRepository;
 
     @GetMapping("/get/{nickname}")
     public Perfil getPerfilByNickname (@PathVariable String nickname) {

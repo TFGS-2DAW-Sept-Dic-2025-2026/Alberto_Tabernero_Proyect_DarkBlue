@@ -37,15 +37,15 @@ export class MenuComponent {
     this.audioService.stop('hoverSound');
     this.audioService.play('torpedoSound','/audio/torpedoSound.mp3');
 
-    if(page === 'NEWGAME'){
-      let _game = this.gameService.gameDTO()!;
-      _game.gameId ='';
-      _game.online = false;
-      this.gameService.setGame(_game);
-    }
     // Cambiar de vista después de 1.2s
     setTimeout(() => {
-        this.pageChange.emit(page); 
-      }, 1200);
+      this.pageChange.emit(page); 
+      if(page === 'NEWGAME'){
+        let _game = this.gameService.gameDTO()!;
+        _game.gameId ='';
+        _game.online = false;
+        this.gameService.setGame(_game);
+      }
+    }, 1200);
   }
 }

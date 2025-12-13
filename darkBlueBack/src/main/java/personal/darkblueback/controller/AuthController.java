@@ -146,10 +146,7 @@ public class AuthController {
         System.out.println("request login--------------------- " + request);
         String token = authService.login(request);
         System.out.println("token login--------------------- " + token);
-        Usuario user = authService.getUsuarioByUsername(request.getUsername());
         Perfil perfil = perfilService.getPerfilByUsername(request.getUsername());
-
-
         return ResponseEntity.ok(new IRestMessage(
                 0, "envio token de sesion", new AuthResponse(token, perfil)
         ));
