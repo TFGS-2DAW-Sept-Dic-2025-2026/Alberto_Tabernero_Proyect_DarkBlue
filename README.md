@@ -1,11 +1,4 @@
-<div style="display: flex; align-items: center; gap: 12px;">
-  <img src="./Docs/images/logoMini.png" alt="Logo de Dark Blue" style="width: 96px;">
-  <h1 style="font-size: 40px;
-        background: linear-gradient(90deg, #ffa500, #ffcf70);
-        -webkit-background-clip: text;
-        color: transparent;margin: 0; color: #960;">Dark Blue: Mar de Acero</h1>
-</div>
-
+![Dark Blue banner](./Docs/images/bannerTitle.png)
 
 ### &nbsp;&nbsp;*¡El destino de la humanidad está en tus manos! -   Una batalla épica bajo el del mar*
 ---
