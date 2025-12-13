@@ -138,18 +138,12 @@ Esta arquitectura permite una experiencia fluida y desacoplada.
 - ChatGPT
 - Gemini
 
----
-
-
-
-
-
-### 3.3 Análisis de Usuarios
-- Jugador: perfil, XP, estadísticas, inventario  
-- Administrador: gestión de usuarios y estadísticas (opcional)  
+--- 
 
 ### 3.4 Requisitos Funcionales y No Funcionales
 **Funcionales:** registro/login, partidas , ataques, chat, tienda  
 **No funcionales:** <200ms en online, responsive, seguro, accesible  
 
 ### 3.5 Estructura de Navegación
+
+todo
